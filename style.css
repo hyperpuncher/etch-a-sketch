@@ -1,22 +1,31 @@
+html,
+body,
+.container {
+  height: 100%;
+}
+
 body {
   background-color: rgb(24, 24, 24);
   margin: 0;
-  text-align: center;
+}
 
+.container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
   width: 100px;
-  margin: 20px;
-  text-align: center;
-  justify-content: center;
   font-size: large;
 }
 
-.container {
+.canvas {
   width: 960px;
-  margin: auto;
   display: grid;
+  gap: 2px;
 }
 
 .square {
