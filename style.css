@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(24, 24, 24);
+  margin: 0;
+  text-align: center;
+
+}
+
+button {
+  width: 100px;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  display: grid;
+}
+
+.square {
+  background-color: whitesmoke;
+  aspect-ratio: 1;
+}
+
+.painted {
+  background-color: blueviolet;
+}
