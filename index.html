@@ -11,7 +11,23 @@
 
 <body>
   <div class="container">
-    <button>Grid Size</button>
+    <div class="toolbar">
+      <div class="slidecontainer">
+        <span id="sliderValue"></span>
+        <input type="range" min="2" max="100" value="25" class="slider" id="slider">
+      </div>
+      
+      <div class="radio">
+        <input type="radio" name="color" id="solid" value="solid" checked>
+        <label for="solid">Solid</label>
+        <input type="radio" name="color" id="rainbow" value="rainbow">
+        <label for="rainbow">Rainbow</label>
+        <input type="radio" name="color" id="greyscale" value="greyscale">
+        <label for="greyscale">Greyscale</label>
+      </div>
+
+      <button id="btn-reset">Reset</button>
+    </div>
     <div class="canvas"></div>
   </div>
 
